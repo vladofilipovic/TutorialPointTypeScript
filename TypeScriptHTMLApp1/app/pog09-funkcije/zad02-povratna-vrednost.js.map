@@ -1,0 +1,1 @@
+{"version":3,"file":"zad02-povratna-vrednost.js","sourceRoot":"","sources":["zad02-povratna-vrednost.ts"],"names":[],"mappings":"AAAA,mBAAmB;AACnB;IACI,MAAM,CAAC,aAAa,CAAA;AACxB,CAAC;AAED;IACI,IAAI,GAAG,GAAG,KAAK,EAAE,CAAA,CAAC,2BAA2B;IAC7C,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAA;AACpB,CAAC;AAED,kBAAkB;AAClB,MAAM,EAAE,CAAA"}

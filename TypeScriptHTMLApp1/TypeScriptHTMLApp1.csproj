@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{DDC28D16-0E52-4810-B73A-F9EA46021A26}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\pog21-pregledac\zad01-sat\app.css" />
+    <Content Include="index.html" />
+    <Content Include="clock.html" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app\pog15-interfejsi\zad03-interfejs-niz.ts" />
+    <TypeScriptCompile Include="app\pog15-interfejsi\zad05-interfejs-nasledjivanje-2.ts" />
+    <TypeScriptCompile Include="app\pog15-interfejsi\zad04-interfejs-nasledjivanje.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad01-deklaracija-kreiranje.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad02-atributi-funkcije.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad03-nasledjivanje.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad04-nasledjivanje-2.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad05-prevazilazenje-metoda.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad06-static.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad07-instanceof.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad08-enkapsulacija.ts" />
+    <TypeScriptCompile Include="app\pog16-klase\zad09-implementacija-interfejsa.ts" />
+    <TypeScriptCompile Include="app\pog17-objekti\zad01-objekt-literal.ts" />
+    <TypeScriptCompile Include="app\pog17-objekti\zad02-sablon-za-tip.ts" />
+    <TypeScriptCompile Include="app\pog17-objekti\zad03-objekat-parametar-funkcije.ts" />
+    <TypeScriptCompile Include="app\pog17-objekti\zad04-anonimni-objekat.ts" />
+    <TypeScriptCompile Include="app\pog17-objekti\zad05-patka-tip.ts" />
+    <TypeScriptCompile Include="app\pog18-prostori-imena\zad01-crtanje\circle.ts" />
+    <TypeScriptCompile Include="app\pog18-prostori-imena\zad01-crtanje\i-shape.ts" />
+    <TypeScriptCompile Include="app\pog18-prostori-imena\zad01-crtanje\test-shapes.ts" />
+    <TypeScriptCompile Include="app\pog18-prostori-imena\zad01-crtanje\triangle.ts" />
+    <TypeScriptCompile Include="app\pog21-pregledac\zad01-sat\app.ts" />
+    <TypeScriptCompile Include="app\pog03-osnovna-sintaksa\zad01-intro.ts" />
+    <TypeScriptCompile Include="app\pog03-osnovna-sintaksa\zad02-naredbe.ts" />
+    <TypeScriptCompile Include="app\pog03-osnovna-sintaksa\zad03-objekti.ts" />
+    <TypeScriptCompile Include="app\pog05-promenljive\zad01-promenljive.ts" />
+    <TypeScriptCompile Include="app\pog05-promenljive\zad02-promena-tipa.ts" />
+    <TypeScriptCompile Include="app\pog05-promenljive\zad03-dedukcija-tipa.ts" />
+    <TypeScriptCompile Include="app\pog05-promenljive\zad04-opseg-vazenja-promenljive.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad01-aritmeticki.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad02-relacioni.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad03-logicki.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad04-logicki-izvrsavanje.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad05-bitovni.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad06-kombinovana-dodela.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad07-promena-znaka.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad08-konkatenacija.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad09-uslovni.ts" />
+    <TypeScriptCompile Include="app\pog06-operatori\zad10-odredjivanje-tipa.ts" />
+    <TypeScriptCompile Include="app\pog07-grananja\zad01-if-naredba.ts" />
+    <TypeScriptCompile Include="app\pog07-grananja\zad02-if-else-naredba.ts" />
+    <TypeScriptCompile Include="app\pog07-grananja\zad03-ugnezdena-if-else.ts" />
+    <TypeScriptCompile Include="app\pog07-grananja\zad04-switch-naredba.ts" />
+    <TypeScriptCompile Include="app\pog08-ciklusi\zad01-ciklus-for.ts" />
+    <TypeScriptCompile Include="app\pog08-ciklusi\zad02-ciklus-for-in.ts" />
+    <TypeScriptCompile Include="app\pog08-ciklusi\zad03-ciklus-while.ts" />
+    <TypeScriptCompile Include="app\pog08-ciklusi\zad04-ciklus-do-while.ts" />
+    <TypeScriptCompile Include="app\pog08-ciklusi\zad05-while-vs-do-while.ts" />
+    <TypeScriptCompile Include="app\pog08-ciklusi\zad06-izlaz-break.ts" />
+    <TypeScriptCompile Include="app\pog08-ciklusi\zad07-preskakanje-continue.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad01-definicija-poziv.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad02-povratna-vrednost.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad03-parametri.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad04-opcioni-parametri.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad05-rest-parametri.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad06-podrazumevani-parametri.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad07-anonimna-funkcija.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad08-anonimna-funkcija.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad09-konstruktor-funkcije.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad10-rekurzivna-funkcija.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad11-anonimna-funkcija-poziv.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad12-lambda-izraz.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad13-lambda-naredba.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad14-ispitivanje-tipa.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad15-lambda-parametar-zagrade.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad16-lambda-bez-parametara.ts" />
+    <TypeScriptCompile Include="app\pog09-funkcije\zad17-preopterecenje-funkcije.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad01-osobine-brojeva.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad02-NaN.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad03-toExponential.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad04-toFixed.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad05-toLocaleString.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad06-toPrecision.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad07-toString.ts" />
+    <TypeScriptCompile Include="app\pog10-brojevi\zad08-valueOf.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad01-konstruktor.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad02-duzina.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad03-prototip.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad04-charAt.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad05-charCodeAt.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad06-concat.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad07-indexOf.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad08-lastIndexOf.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad09-localeCompare.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad10-replace.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad11-search.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad12-slice.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad13-split.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad14-substr.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad15-substring.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad16-UpperCaseLowerCase.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad17-toString.ts" />
+    <TypeScriptCompile Include="app\pog11-niske\zad18-valueOf.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad01-prosti-niz.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad02-nizovni-objekat.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad03-niz-konstruktor.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad04-concat.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad05-every.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad06-filter.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad07-forEach.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad08-indexOf.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad09-join.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad10-lastIndexOf.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad11-map.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad12-pop.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad13-push.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad14-reduce.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad15-reduceRight.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad16-reverse.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad17-shift.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad18-slice.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad19-some.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad20-sort.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad21-splice.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad22-toString.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad23-unshift.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad24-for-in.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad25-vise-dimenzionalni.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad26-funkcija-argument.ts" />
+    <TypeScriptCompile Include="app\pog12-nizovi\zad27-funkcija-rezultat.ts" />
+    <TypeScriptCompile Include="app\pog13-ntorke\zad01-prosta-ntorka.ts" />
+    <TypeScriptCompile Include="app\pog13-ntorke\zad02-prazna-ntorka.ts" />
+    <TypeScriptCompile Include="app\pog13-ntorke\zad03-operacije-sa-ntorkom.ts" />
+    <TypeScriptCompile Include="app\pog13-ntorke\zad04-izmena-ntorke.ts" />
+    <TypeScriptCompile Include="app\pog14-unije\zad01-promenljiva-tipa-unije.ts" />
+    <TypeScriptCompile Include="app\pog14-unije\zad02-funkcije-argument.ts" />
+    <TypeScriptCompile Include="app\pog14-unije\zad03-niz-unija.ts" />
+    <TypeScriptCompile Include="app\pog15-interfejsi\zad01-osoba.ts" />
+    <TypeScriptCompile Include="app\pog15-interfejsi\zad02-unija-interfejs.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\pog19-moduli\" />
+    <Folder Include="app\pog20-ambijenti\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TypeScriptHTMLApp1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23670</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:23670/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

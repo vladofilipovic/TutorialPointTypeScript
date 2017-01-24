@@ -1,0 +1,1 @@
+{"version":3,"file":"zad04-interfejs-nasledjivanje.js","sourceRoot":"","sources":["zad04-interfejs-nasledjivanje.ts"],"names":[],"mappings":"AAQA,IAAI,OAAO,GAAa,EAAE,CAAC;AAC3B,OAAO,CAAC,GAAG,GAAG,EAAE,CAAA;AAChB,OAAO,CAAC,UAAU,GAAG,OAAO,CAAA;AAC5B,OAAO,CAAC,GAAG,CAAC,OAAO,GAAG,OAAO,CAAC,GAAG,CAAC,CAAA;AAClC,OAAO,CAAC,GAAG,CAAC,cAAc,GAAG,OAAO,CAAC,UAAU,CAAC,CAAA"}
