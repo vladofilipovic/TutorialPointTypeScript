@@ -1,5 +1,0 @@
-C:\Books\Books\Computer Science\Coffie Script, Type Script\source-tutorials-point-type-script-vs\TypeScriptHTMLApp1\bin\TypeScriptHTMLApp1.dll.config
-C:\Books\Books\Computer Science\Coffie Script, Type Script\source-tutorials-point-type-script-vs\TypeScriptHTMLApp1\bin\TypeScriptHTMLApp1.dll
-C:\Books\Books\Computer Science\Coffie Script, Type Script\source-tutorials-point-type-script-vs\TypeScriptHTMLApp1\bin\TypeScriptHTMLApp1.pdb
-C:\Books\Books\Computer Science\Coffie Script, Type Script\source-tutorials-point-type-script-vs\TypeScriptHTMLApp1\obj\Debug\TypeScriptHTMLApp1.dll
-C:\Books\Books\Computer Science\Coffie Script, Type Script\source-tutorials-point-type-script-vs\TypeScriptHTMLApp1\obj\Debug\TypeScriptHTMLApp1.pdb
